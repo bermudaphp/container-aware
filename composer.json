@@ -1,0 +1,18 @@
+{
+    "name": "bermudaphp/container-aware",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bermuda\\ContainerAware\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shelamkoff"
+        }
+    ],
+    "require": {
+        "psr/container": "^2.0.2"
+    }
+}
