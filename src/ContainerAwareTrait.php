@@ -6,7 +6,7 @@ use Psr\Container\ContainerInterface;
 
 trait ContainerAwareTrait
 {
-    private ContainerInterface $container;
+    private ?ContainerInterface $container = null;
     public function setContainer(ContainerInterface $container): void
     {
         $this->container = $container;
