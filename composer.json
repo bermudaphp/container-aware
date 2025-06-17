@@ -7,12 +7,7 @@
             "Bermuda\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "shelamkoff"
-        }
-    ],
     "require": {
-        "psr/container": "^1.0 || ^2.0.2"
+        "psr/container": "^2.0.2"
     }
 }
